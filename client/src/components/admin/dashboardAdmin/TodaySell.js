@@ -47,7 +47,7 @@ const SellTable = () => {
           <tbody>
             {data.totalOrders.Orders !== undefined ? (
               ordersList().map((item, key) => {
-                return <TodayOrderTable order={item} key={key} />;
+                // return <TodayOrderTable order={item} key={key} />;
               })
             ) : (
               <tr>
@@ -63,10 +63,10 @@ const SellTable = () => {
         </table>
         <div className="text-sm text-gray-600 mt-2">
           Total{" "}
-          {data.totalOrders.Orders !== undefined ? ordersList().length : 0}{" "}
+          {/* {data.totalOrders.Orders !== undefined ? ordersList().length : 0}{" "} */}
           orders found
         </div>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <span
             onClick={(e) => history.push("/admin/dashboard/orders")}
             style={{ background: "#303031" }}
@@ -74,7 +74,7 @@ const SellTable = () => {
           >
             View All
           </span>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );

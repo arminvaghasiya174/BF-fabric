@@ -258,7 +258,7 @@ const Navber = (props) => {
                             onClick={(e) => history.push("/admin/dashboard")}
                             className="flex space-x-2 py-2 px-8 hover:bg-gray-400 cursor-pointer"
                           >
-                            <span>
+                            {/* <span>
                               <svg
                                 className="w-6 h-6"
                                 fill="none"
@@ -279,8 +279,8 @@ const Navber = (props) => {
                                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                                 />
                               </svg>
-                            </span>
-                            <span>Admin Panel</span>
+                            </span> */}
+                            {/* <span>Admin Panel</span> */}
                           </span>
                           <span
                             onClick={(e) => logout()}
@@ -353,9 +353,9 @@ const Navber = (props) => {
                   d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
                 />
               </svg>
-              <span className="absolute top-0 ml-6 mt-1 bg-yellow-700 rounded px-1 text-white text-xs hover:text-gray-200 font-semibold">
+              {/* <span className="absolute top-0 ml-6 mt-1 bg-yellow-700 rounded px-1 text-white text-xs hover:text-gray-200 font-semibold">
                 {data.cartProduct !== null ? data.cartProduct.length : 0}
-              </span>
+              </span> */}
             </div>
           </div>
         </div>

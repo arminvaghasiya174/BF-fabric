@@ -40,7 +40,8 @@ const AdminSidebar = (props) => {
         </div>
         <hr className="border-b border-gray-200" />
         <div
-          onClick={(e) => history.push("/admin/dashboard/categories")}
+          // onClick={(e) => history.push("/admin/dashboard/categories")}
+          onClick={(e) => history.push("/admin/dashboard/")}
           className={`${
             location.pathname === "/admin/dashboard/categories"
               ? "border-r-4 border-gray-800 bg-gray-100"
@@ -67,7 +68,8 @@ const AdminSidebar = (props) => {
         </div>
         <hr className="border-b border-gray-200" />
         <div
-          onClick={(e) => history.push("/admin/dashboard/products")}
+          // onClick={(e) => history.push("/admin/dashboard/products")}
+          onClick={(e) => history.push("/admin/dashboard/")}
           className={`${
             location.pathname === "/admin/dashboard/products"
               ? "border-r-4 border-gray-800 bg-gray-100"
@@ -94,7 +96,8 @@ const AdminSidebar = (props) => {
         </div>
         <hr className="border-b border-gray-200" />
         <div
-          onClick={(e) => history.push("/admin/dashboard/orders")}
+          // onClick={(e) => history.push("/admin/dashboard/orders")}
+          onClick={(e) => history.push("/admin/dashboard/")}
           className={`${
             location.pathname === "/admin/dashboard/orders"
               ? "border-r-4 border-gray-800 bg-gray-100"
